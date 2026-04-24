@@ -12,7 +12,7 @@
 - **反模式（明確避開）**：
   - 圓潤卡通風（border-radius 保守）
   - AI slop 的三欄圖示網格、置中一切、泡泡按鈕
-- **可類比的參考系**：TWAI、Apple官網、ASUS官網
+- **可類比的參考系**：TWAI官網、Apple官網、ASUS官網、Google AI Studio、Dify
 
 ## Color---做到這裡
 
@@ -114,9 +114,6 @@
 --letter-spacing-wide:   0.05em   /* UPPERCASE labels */
 ```
 
-### Tabular Numbers
-日期、統計數字（`SocialProof` 的「18,000+ / 1,700+ / 20 / 200+」）使用 `font-variant-numeric: tabular-nums` 避免跳動。
-
 ## Spacing
 
 **Base unit**：4px（但主要使用 8px grid 的倍數）
@@ -214,7 +211,7 @@
 
 ## Components
 
-vista.tw 的元件庫在 `src/components/`。以下是核心元件的職責與設計意圖：
+元件庫在 `src/components/`。以下是核心元件的職責與設計意圖：
 
 ### Layout & Structure
 | 元件 | 職責 |
@@ -355,16 +352,7 @@ Core Web Vitals 目標（行動版中位數）：
 | — | 禁止深色主題、紫色、其他花俏配色 | 設計系統的核心是「一致性與克制」——有多套視覺主題會稀釋品牌 |
 | — | 文章圖片方角（`border-radius: 0`） | 圓角破壞雜誌質感 |
 | — | 全站 body 字級放大兩級（20/24px） | Vista 的讀者多數不是技術宅，對小字不耐 |
-| 2026-03-26 | 用字偏好規範：「臺/批次/愈來愈」 | 一致的繁體中文風格 |
-| 2026-02-24 | 標籤正規化 1,104 → ~50 個核心標籤 | AEO 主題叢集架構 |
-| 2026-04-13 | 首頁重設計：三路分流 Hero + Topic Cluster + Social Proof | 降低認知負擔、區分讀者類型、強化內部連結 |
-| 2026-04-13 | AuthorCard 元件引入 | 文章底部顯性 E-E-A-T byline 訊號，改善 LLM 引用權重 |
-| 2026-04-13 | 隱藏 bookclub 導覽 | 暫時收起入口（詳細頁仍保留） |
-| 2026-04-13 | 14 個 en/ja topic landing pages 上線 | 多語系內部連結一致性 + AEO |
-| 2026-04-13 | TL;DR block 新規範 | 讓 Google AI Overview / ChatGPT / Perplexity 直接引用 |
-| 2026-04-13 | Blog 內文字級從 18/17 → 19/18 | 中文長文舒適度，對齊端傳媒／天下雜誌的 19-20px 中段 |
-| 2026-04-13 | 相關文章演算法從 O(N²) 改為 pre-computed JSON 查表 | 架構可擴展性（雖然實際 build time 改善有限） |
-| 2026-04-13 | 這份 DESIGN.md 首次產出 | 把既存的系統從 `global.css` 註解昇級為人類可讀文件 |
+| 2026-04-24 | 這份 DESIGN.md 首次產出 | 把既存的系統從 `global.css` 註解昇級為人類可讀文件 |
 
 ---
 
