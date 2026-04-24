@@ -1,4 +1,4 @@
-# Design System — vista.tw
+# Design System
 
 > **注意**：這份文件是 tri **既存設計系統的文件化**，不是新提案。
 > 系統的權威來源是 `src/styles/global.css` 的 `:root` design tokens。這份 DESIGN.md
@@ -70,7 +70,8 @@
 ```
 --font-size-xs:    0.75rem  /* 12px */
 --font-size-sm:    0.875rem /* 14px */
---font-size-base:  1rem     /* 16px */
+--font-size-base:  0.9rem /* 15px */
+--font-size:  1rem     /* 一般來說 base 是 1rem = 16px */
 --font-size-md:    1.125rem /* 18px */
 --font-size-lg:    1.25rem  /* 20px  ← mobile body */
 --font-size-xl:    1.5rem   /* 24px  ← desktop body */
