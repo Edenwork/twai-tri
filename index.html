@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRInity Partnership Program</title>
+   
+   <link rel="stylesheet" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet"> -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/global.css" rel="stylesheet">
+<style>
+
+
+</style>
+
+  <div class="ambient">
+    <div class="ao ao1"></div>
+    <div class="ao ao2"></div>
+    <div class="ao ao3"></div>
+  </div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">TRInity</div>
+    <ul class="nav-links">
+      <li><a href="#market">市場洞察</a></li>
+      <li><a href="#core">架構</a></li>
+      <li><a href="#services">技術服務</a></li>
+      <li><a href="#platform">平台</a></li>
+      <li><a href="#fleet">Fleet</a></li>
+    </ul>
+    <button class="nav-cta" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">開始對話</button>
+  </nav>
+
+  <!-- 1. HERO -->
+  <!-- <section id="hero">
+  <canvas id="heroCanvas"></canvas>
+  <div class="container">
+    <div style="display:flex;align-items:center;justify-content:space-between;position:relative;">
+      <div class="hero-inner">
+        <p class="hero-eyebrow">— Powered by TWAI × One ASUS × Industry Partners</p>
+        <h1 class="hero-title">
+          <span class="solid">TRI</span>
+          <span class="outline">nity</span>
+        </h1>
+        <div class="hero-prog">Partnership Program</div>
+        <p class="hero-desc">結合 TWAI、One ASUS 與產業夥伴，將模型能力、Agent 能力、主權 AI 與商業推進整合為可落地的企業合作方案。</p>
+        <div class="hero-tags">
+          <span class="hero-tag">主權 AI</span>
+          <span class="hero-tag">模型代工</span>
+          <span class="hero-tag">Agent 代工</span>
+          <span class="hero-tag">AFS AI Hub</span>
+        </div>
+        <div class="hero-ctas">
+          <a href="#cta" class="btn-p">開始對話</a>
+          <a href="#core" class="btn-g">了解架構 →</a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div><div class="hs-num">31.9%</div><div class="hs-lbl">CAGR 2024–2029</div></div>
+        <div><div class="hs-num">40<span style="font-size:28px">min</span></div><div class="hs-lbl">To Business</div></div>
+        <div><div class="hs-num">3</div><div class="hs-lbl">Core Engines</div></div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+  <!-- HERO SECTION --> <canvas id="heroCanvas"></canvas>
+  <section id="hero">
+    <div class="hero-grid">
+      <div>
+        <!-- <div class="ecosystem-badge">
+          <div class="live-dot"><span></span><span></span></div>
+          ASUS ENTERPRISE AI ECOSYSTEM
+        </div> -->
+        <h2 class="hero-title">TRInity<br>Partnership<br>Program</h2>
+        <p class="hero-sub">
+          結合 <span class="c-indigo">TWAI</span>、<span class="c-purple">One ASUS</span> 與產業夥伴，將模型能力、Agent 能力、主權 AI
+          與商業推進整合為可落地的企業合作方案。
+        </p>
+        <div class="quick-links">
+          <a class="quick-link" onclick="smoothScrollTo('services')">
+            <i class="fa-solid fa-crown ic-indigo"></i> 主權 AI <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a class="quick-link" onclick="smoothScrollTo('services')">
+            <i class="fa-solid fa-microchip ic-purple"></i> 模型代工 <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a class="quick-link" onclick="smoothScrollTo('services')">
+            <i class="fa-solid fa-robot ic-indigo"></i> Agent 代工 <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a class="quick-link" onclick="smoothScrollTo('platform')">
+            <i class="fa-solid fa-hub ic-purple"></i> AFS AI Hub <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- <div class="hero-checks">
+                <span><i class="fa-solid fa-check"></i> 模型即服務</span>
+                <span><i class="fa-solid fa-check"></i> Agent 即服務</span>
+                <span><i class="fa-solid fa-check"></i> 主權 AI 落地</span>
+            </div> -->
+      </div>
+
+      <div>
+        <div class="orb-wrap">
+          <div class="orb-glow"></div>
+          <div class="orb-card">
+            <div class="orb-inner">
+              <div class="tri-letters">
+                <div>
+                  <div class="tri-letter lt">T</div>
+                  <div class="tri-sub">TWAI</div>
+                </div>
+                <div>
+                  <div class="tri-letter lr">R</div>
+                  <div class="tri-sub">RESOURCE</div>
+                </div>
+                <div>
+                  <div class="tri-letter li">I</div>
+                  <div class="tri-sub">ISV / NAI</div>
+                </div>
+              </div>
+              <div class="orb-name">TRInity</div>
+              <p class="orb-label">PARTNERSHIP PROGRAM</p>
+              <div class="orb-divider"></div>
+              <i class="fa-solid fa-triangle orb-fa"></i>
+            </div>
+          </div>
+          <div class="orbit-dot od-1"></div>
+          <div class="orbit-dot od-2"></div>
+          <div class="orbit-dot od-3"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>SCROLL TO DISCOVER</span>
+      <i class="fa-solid fa-chevron-down bounce" style="margin-top:8px;font-size:18px;"></i>
+    </div>
+
+    <div class="hero-badges">
+      <span><i class="fa-solid fa-cube" style="color:var(--indigo)"></i> TWAI</span>
+      <span><i class="fa-solid fa-laptop" style="color:var(--cyan)"></i> One ASUS</span>
+      <span><i class="fa-solid fa-network-wired" style="color:var(--purple)"></i> ExpertHub</span>
+      <span><i class="fa-solid fa-server" style="color:var(--indigo)"></i> AFS AI Hub</span>
+    </div>
+  </section>
+
+  <div class="div"></div>
+
+
+
+  <!-- 2. MARKET -->
+  <div class="page" id="market">
+    <div class="container">
+      <header class="gap-header">
+        <span class="sub-label">AI 應用獲利結構重組</span>
+        <h2>AI 應用市場的商業需求<br><span class="highlight">呈現爆發性成長</span></h2>
+        <p class="headline-sub">
+          全球 AI 市場規模 2024–2029 年複合年增長率達 <span class="hl">31.9%</span>。企業正尋找能夠滿足內需與商業推動的軟體、系統整合與應用服務，AI 產業獲利結構將進入板塊重組。
+        </p>
+      </header>
+
+
+      <!-- Main Content -->
+      <div class="main-grid">
+
+        <!-- Left Card -->
+        <div class="left-card">
+          <!-- <div class="profit-badge">PROFIT POOL RESET</div> -->
+
+          <!-- CAGR stat -->
+          <div class="cagr-block">
+            <!-- <div class="cagr-label">全球 AI 市場 2024–2029</div>
+        <div class="cagr-number">31.9<span style="font-size:28px;letter-spacing:0">%</span></div> -->
+            <div class="cagr-sub"> 企業採購重點已從單點模型能力，快速轉向可直接承接內需、整合系統並推進商業落地的 <strong>AI
+                解決方案</strong>。軟體、系統整合與應用服務正成為新的獲利主軸。</strong></div>
+          </div>
+
+          <!-- Mini line chart -->
+          <div class="chart-wrap">
+            <div class="chart-title-row">
+              <span>市場規模（億美元）</span>
+              <span class="target">2029 目標 12,620</span>
+            </div>
+            <svg class="chart-svg" viewBox="0 0 260 110" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#4f8ef7" />
+                  <stop offset="100%" stop-color="#b47afe" />
+                </linearGradient>
+                <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#4f8ef7" stop-opacity="0.28" />
+                  <stop offset="100%" stop-color="#4f8ef7" stop-opacity="0" />
+                </linearGradient>
+                <filter id="glow">
+                  <feGaussianBlur stdDeviation="2" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+              </defs>
+              <!-- Grid -->
+              <line x1="10" y1="8" x2="250" y2="8" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+              <line x1="10" y1="36" x2="250" y2="36" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+              <line x1="10" y1="64" x2="250" y2="64" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+              <line x1="10" y1="92" x2="250" y2="92" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+              <!-- Area -->
+              <path class="chart-area" d="M10,92 L60,84.6 L110,71.1 L160,50.5 L210,27.2 L250,8 L250,92 Z"
+                fill="url(#areaGrad)" />
+              <!-- Line -->
+              <polyline class="chart-line" points="10,92 60,84.6 110,71.1 160,50.5 210,27.2 250,8" fill="none"
+                stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                filter="url(#glow)" />
+              <!-- Dots -->
+              <circle cx="10" cy="92" r="3" fill="#4f8ef7" opacity="0.7" />
+              <circle cx="60" cy="84.6" r="3" fill="#5f82f4" opacity="0.7" />
+              <circle cx="110" cy="71.1" r="3" fill="#7470ef" opacity="0.7" />
+              <circle cx="160" cy="50.5" r="3" fill="#9462eb" opacity="0.7" />
+              <circle cx="210" cy="27.2" r="3" fill="#aa58e6" opacity="0.7" />
+              <circle class="chart-dot-last" cx="250" cy="8" r="4" fill="#b47afe" filter="url(#glow)" />
+              <!-- Value labels -->
+              <text x="10" y="115" text-anchor="middle" fill="rgba(255,255,255,0.32)" font-size="9">3,159</text>
+              <text x="60" y="115" text-anchor="middle" fill="rgba(255,255,255,0.32)" font-size="9">4,299</text>
+              <text x="110" y="115" text-anchor="middle" fill="rgba(126,179,255,0.9)" font-size="9"
+                font-weight="700">5,707</text>
+              <text x="160" y="115" text-anchor="middle" fill="rgba(255,255,255,0.32)" font-size="9">7,634</text>
+              <text x="210" y="115" text-anchor="middle" fill="rgba(255,255,255,0.32)" font-size="9">9,835</text>
+              <text x="250" y="115" text-anchor="middle" fill="rgba(180,122,254,0.9)" font-size="9"
+                font-weight="700">12,620</text>
+              <!-- Year labels -->
+              <text x="10" y="101" text-anchor="middle" fill="rgba(255,255,255,0.22)" font-size="8">2024</text>
+              <text x="250" y="101" text-anchor="middle" fill="rgba(180,122,254,0.65)" font-size="8">2029</text>
+            </svg>
+          </div>
+
+          <div class="left-divider"></div>
+
+          <!-- <p class="left-text">
+        企業採購重點已從單點模型能力，快速轉向可直接承接內需、整合系統並推進商業落地的 <strong>AI 解決方案</strong>。軟體、系統整合與應用服務正成為新的獲利主軸。
+      </p> -->
+        </div>
+
+        <!-- Right Panel -->
+        <div class="right-panel">
+
+          <!-- Table header -->
+          <div class="tbl-header">
+            <div class="tbl-col-head tch-blue">2026年獲利結構</div>
+            <div class="tbl-col-head tch-mid">
+              全球AI市場規模<br>
+              <span class="cagr">2024-2029 CAGR 31.9%</span>
+            </div>
+            <div class="tbl-col-head tch-purple">未來獲利結構??</div>
+          </div>
+
+          <!-- Table body -->
+          <div class="tbl-body">
+
+            <!-- Current pyramid: narrow top → wide base -->
+            <div class="pyramid-col">
+              <div class="py-bar cur-l1">
+                <div class="py-bar-label">軟體、系統整合</div>
+                <div class="py-bar-sub">應用服務</div>
+              </div>
+              <div class="py-bar cur-l2">
+                <div class="py-bar-label">平台、硬體</div>
+              </div>
+              <div class="py-bar cur-l3">
+                <div class="py-bar-label">PCB、被動元件</div>
+                <div class="py-bar-sub">散熱模組、封裝等</div>
+              </div>
+              <div class="py-bar cur-l4">
+                <div class="py-bar-label">晶片、伺服器、記憶體</div>
+              </div>
+            </div>
+
+            <!-- Data column -->
+            <div class="data-col">
+              <div class="data-row-head">
+                <span>時間</span>
+                <span>市場規模<br>（億美元）</span>
+              </div>
+              <div class="data-rows">
+                <div class="data-row">
+                  <div class="dr-year">2024</div>
+                  <div class="dr-val">3,159</div>
+                </div>
+                <div class="data-row">
+                  <div class="dr-year">2025</div>
+                  <div class="dr-val">4,299</div>
+                </div>
+                <div class="data-row highlight">
+                  <div class="dr-year">2026</div>
+                  <div class="dr-val">5,707</div>
+                </div>
+                <div class="data-row">
+                  <div class="dr-year">2027</div>
+                  <div class="dr-val">7,634</div>
+                </div>
+                <div class="data-row">
+                  <div class="dr-year">2028</div>
+                  <div class="dr-val">9,835</div>
+                </div>
+                <div class="data-row">
+                  <div class="dr-year">2029</div>
+                  <div class="dr-val">12,620</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Future pyramid: wide top → narrow base -->
+            <div class="future-col">
+              <div class="py-bar fut-l1">
+                <div class="py-bar-label">軟體、系統整合</div>
+                <div class="py-bar-sub">應用服務等</div>
+              </div>
+              <div class="py-bar fut-l2">
+                <div class="py-bar-label">平台、硬體</div>
+              </div>
+              <div class="py-bar fut-l3">
+                <div class="py-bar-label">晶片</div>
+              </div>
+              <div class="py-bar fut-l4">
+                <div class="py-bar-label">伺服器</div>
+                <div class="py-bar-sub">PCB・記憶體</div>
+              </div>
+            </div>
+
+          </div><!-- /tbl-body -->
+
+          <div class="source-note">
+            資料來源：IDC、工研院產科國際所、台灣經濟研究院產業資料庫（2026.03）。
+          </div>
+
+        </div><!-- /right-panel -->
+      </div><!-- /main-grid -->
+
+    </div><!-- /page/ market -->
+  </div>
+
+  <div class="div"></div>
+
+  <!-- 3. PAIN POINTS -->
+  <section class="bridge-gap" id="pain">
+    <div class="container">
+      <header class="gap-header">
+        <span class="sub-label">BRIDGE GAP</span>
+        <h2>連結供給與需求的斷層：<br><span class="highlight">讓技術動能完美對接商業價值</span></h2>
+      </header>
+
+      <div class="gap-main-content">
+        <div class="gap-steps">
+          <div class="step-box">
+            <span class="num">01</span>
+            <p>供給端具備強大 AI 能力，需更高效的整合與組裝機制以加速落地。</p>
+          </div>
+          <div class="step-box">
+            <span class="num">02</span>
+            <p>需求端擁有豐富場景，目標是快速對接可交付且具商業價值的解決方案。</p>
+          </div>
+          <div class="step-box">
+            <span class="num">03</span>
+            <p>建立具備商業理解與技術實踐能力的「橋樑角色」是成功的關鍵。</p>
+          </div>
+        </div>
+
+        <div class="comparison-visual">
+          <div class="vs-container">
+            <div class="vs-side isv-side">
+              <h3>ISV 的升級路徑</h3>
+              <ul>
+                <li>賦能既有軟體產品，整合最新 AI 能力縮短導入週期。</li>
+                <li>在 AI 時代建立差異化護城河，轉型高價值服務模式。</li>
+              </ul>
+            </div>
+
+            <div class="vs-divider">
+              <div class="bolt"></div>
+            </div>
+
+            <div class="vs-side nai-side">
+              <h3>NAI 的變現方案</h3>
+              <ul>
+                <li>結合產業 Domain Know-how，精準對接真實市場需求。</li>
+                <li>銜接企業級通路與客戶群，實現模型技術規模化商轉。</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="bridge-bottom-box">
+            <p>核心使命：建立 AI 供應方與產業需求方之間 <span class="accent-text">「高效組裝與對接」</span> 的橋樑。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="div"></div>
+
+  <!-- 4. CORE -->
+  <section id="core">
+    <div class="container">
+      <div class="rv" style="margin-bottom:68px;">
+        <div class="lbl">Core Action Plan</div>
+        <h2 class="core-title">
+          <span class="ct">T</span><span class="cr">R</span><span class="ci">I</span><br>
+          Partnership<br>Program
+        </h2>
+      </div>
+      <div class="tri-grid rv">
+        <div class="tri-cell">
+          <div class="tri-ghost">T</div>
+          <div class="tri-abbr">T — TWAI</div>
+          <div class="tri-name">技術後盾</div>
+          <div class="tri-desc">提供強大的模型能力、主權 AI 基礎與 Agentic AI 核心技術，作為整個生態系的技術引擎。</div>
+        </div>
+        <div class="tri-cell">
+          <div class="tri-ghost">R</div>
+          <div class="tri-abbr">R — Resource</div>
+          <div class="tri-name">基礎資源</div>
+          <div class="tri-desc">提供硬體、晶片與基礎設施資源，由 One ASUS 及夥伴共同支撐完整運算環境。</div>
+        </div>
+        <div class="tri-cell">
+          <div class="tri-ghost">I</div>
+          <div class="tri-abbr">I — ISV / NAI</div>
+          <div class="tri-name">應用動能</div>
+          <div class="tri-desc">注入創新的應用場景與技術方案，由 ISV 與 NAI 夥伴共同完成能力整備與市場推進。</div>
+        </div>
+      </div>
+      <div class="core-val rv">
+        <div class="cv-arrow">→</div>
+        <div class="cv-text">將技術能力、資源夥伴與商業需求整理成行動方案，加速完成<strong>能力整備、專案組裝與市場推進</strong>。TRI Partnership Program 是讓 AI
+          技術真正落地的協作引擎。</div>
+      </div>
+    </div>
+  </section>
+  <div class="div"></div>
+
+  <!-- 5. SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="sec-hdr rv">
+        <div class="lbl" style="justify-content:center;">Technical Services</div>
+        <h2 class="sec-title">三大技術賦能服務</h2>
+      </div>
+      <div class="svc-grid">
+        <div class="svc-c rv d1">
+          <div class="svc-icon">⚙️</div>
+          <div class="svc-tag">Model Foundry</div>
+          <div class="svc-name">AI 模型代工</div>
+          <div class="svc-desc">支援企業或產業場景所需之模型客製、優化與交付準備，確保模型具備場域適配性與可落地性。</div>
+        </div>
+        <div class="svc-c rv d2">
+          <div class="svc-icon">🤖</div>
+          <div class="svc-tag">Agentic AI Foundry</div>
+          <div class="svc-name">Agent 代工</div>
+          <div class="svc-desc">整合工作流程、任務鏈與應用邏輯，將 AI 能力轉為可直接使用的業務系統，實現自動化業務執行。</div>
+        </div>
+        <div class="svc-c rv d3">
+          <div class="svc-icon">🚀</div>
+          <div class="svc-tag">Listing Service</div>
+          <div class="svc-name">AI Hub 登載服務</div>
+          <div class="svc-desc">協助方案進入 AFS AI Hub 架構，銜接平台展示、部署與後續商推，讓解決方案快速觸及市場。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="div"></div>
+
+  <!-- 6. PLATFORM -->
+  <!-- <section id="platform">
+  <div class="container">
+    <div class="plat-top">
+      <div class="rv">
+        <div class="lbl">Platform Advantage</div>
+        <h2 class="plat-h">AFS AI Hub：<br>從模型到應用的完整堆棧</h2>
+        <p style="font-size:15px;color:var(--txt2);line-height:1.85;">一個整合模型層、平台層、安全層與應用層的完整 AI 基礎設施，讓技術資產直接轉化為商業價值。</p>
+      </div>
+      <div class="rv d1" style="text-align:center;">
+        <div class="plat-kpi">40<span style="font-size:.42em">min</span></div>
+        <div class="plat-kpi-s">to Business</div>
+        <div class="plat-kpi-n">40 分鐘啟動商轉</div>
+      </div>
+    </div>
+    <div class="stack rv">
+      <div class="stack-row"><div class="stack-k">Model Layer</div><div class="stack-v">提供基礎模型、微調模型與封裝好的企業資產，為所有應用提供智慧核心。</div></div>
+      <div class="stack-row"><div class="stack-k">Platform</div><div class="stack-v">具備管理、調度、可觀測性與擴張性控制，確保平台穩定運行與資源最優分配。</div></div>
+      <div class="stack-row"><div class="stack-k">Security</div><div class="stack-v">嚴謹的存取管控與地端/雲端部署信心，為企業 AI 應用建立安全防護邊界。</div></div>
+      <div class="stack-row"><div class="stack-k">Application</div><div class="stack-v">將基礎架構轉化為可使用、可變現的商業成果，直接驅動業務價值創造。</div></div>
+    </div>
+  </div>
+</section> -->
+
+
+  <section id="platform" class="afs-ai-hub">
+    <div class="container">
+      <header class="section-header">
+        <span class="sub-label">AFS AI HUB 平台架構</span>
+        <h1>AFS AI Hub 構建 <br> 從 <span class="highlight">模型開發到業務應用</span> 的完整堆棧</h1>
+        <p>平台層將模型資產、編排調度、安全防護、部署交付與面向業務的應用整合為一，打造企業級的一站式商轉中心。</p>
+      </header>
+
+      <div class="hub-content-grid">
+
+        <div class="tech-layers">
+          <div class="info-card">
+            <h3>模型層 (MODEL LAYER)</h3>
+            <p>包含基礎模型、微調模型以及針對企業工作負載封裝的智能資產。</p>
+          </div>
+          <div class="info-card">
+            <h3>平台特性 (PLATFORM FEATURES)</h3>
+            <p>提供管理、編排、可觀測性以及實現規模化交付的運行控制能力。</p>
+          </div>
+          <div class="info-card">
+            <h3>安全防護 (SECURITY)</h3>
+            <p>針對企業環境提供嚴謹的存取控制、治理架構與部署信心。</p>
+          </div>
+          <div class="info-card">
+            <h3>應用層 (APPLICATION LAYER)</h3>
+            <p>將基礎架構轉化為可使用、可變現，且面向終端業務的應用成果。</p>
+          </div>
+        </div>
+
+        <div class="col" style="display: flex;
+    justify-items: center;
+    /* align-items: center; */
+    margin: 30px 0px 30px 0px;
+    gap: 20px;">
+          <div class="process-showcase">
+            <div class="mockup-container">
+              <div class="mockup-header">
+                <span>AFS AI Hub (登載流程)</span>
+              </div>
+              <img src="images/pic03.jpg" alt="AFS AI Hub 界面預覽pic">
+              <div class="process-steps">
+                <span>1. 登入系統</span>
+                <span>2. 建立專案</span>
+                <span>3. 上傳模型/Agent</span>
+                <span>4. 設定功能場域</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="business-velocity">
+            <div class="velocity-card">
+              <span class="label">商業啟動效率</span>
+              <h2 class="timer">40 分鐘 <br> 快速啟動商轉</h2>
+              <p>AFS AI Hub 是您的商務發射台，將模型登載、服務部署、安全控管與商業啟用完美整合在單一結構化平台中。</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <div class="div"></div>
+
+  <!-- 7. FLEET -->
+  <section id="fleet">
+    <div class="container">
+      <div class="rv">
+        <div class="lbl">Fleet Assembly Engine</div>
+        <h2 class="fleet-title">Fleet Assembly：<br>進入 TRI 資源夥伴，<br>進行能力組裝。</h2>
+        <p class="fleet-sub">整合生態系夥伴能力，快速完成專案組裝與市場推進。</p>
+      </div>
+      <div class="missions">
+        <div class="mission-c rv d1">
+          <div class="m-num">01</div>
+          <div class="m-lbl">Mission One</div>
+          <div class="m-text">滿足商業徵件，進行<strong>快速專案整合</strong>，縮短從需求到交付的距離。</div>
+        </div>
+        <div class="mission-c rv d2">
+          <div class="m-num">02</div>
+          <div class="m-lbl">Mission Two</div>
+          <div class="m-text">登載 AFS AI Hub，偕同 <strong>AI Edge 落地商推</strong>，擴大解決方案市場觸及。</div>
+        </div>
+      </div>
+      <div class="rv">
+        <div class="roles-lbl">生態系夥伴角色</div>
+        <div class="roles">
+          <span class="role-pill">領域專家</span>
+          <span class="role-pill">模型專家</span>
+          <span class="role-pill">平台業者</span>
+          <span class="role-pill">應用軟體商</span>
+          <span class="role-pill">部署業者</span>
+          <span class="role-pill">資安護航商</span>
+        </div>
+        <p class="fleet-note">共同形成最強 AI 能力艦隊</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. CTA -->
+  <section id="cta">
+    <div class="container" style="position:relative;z-index:2;">
+      <span class="cta-lbl">Join the Ecosystem</span>
+      <h2 class="cta-title">加入將 AI 能力轉化為<br>企業動能的系統。</h2>
+      <p class="cta-desc">從孤立的技術模組，走向 TRInity AI Hub 的協調式商業執行。</p>
+      <a href="mailto:contact@trinity.ai" class="cta-btn">Start the Conversation ↗</a>
+    </div>
+  </section>
+  <div class="div"></div>
+
+  <footer>
+    <div class="container">
+      <div class="fi">
+        <div class="footer-logo">TRInity Partnership Program</div>
+        <div class="footer-copy">© 2025 TWAI × One ASUS · All Rights Reserved</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* PARTICLE CANVAS */
+    (function () {
+      const c = document.getElementById('heroCanvas'), ctx = c.getContext('2d');
+      let W, H, pts = [];
+      function resize() { W = c.width = c.offsetWidth; H = c.height = c.offsetHeight; }
+      resize(); window.addEventListener('resize', resize);
+      function r(a, b) { return Math.random() * (b - a) + a; }
+      function Pt() { this.init(); }
+      Pt.prototype.init = function () {
+        this.x = r(0, W); this.y = r(0, H);
+        this.vx = r(-0.2, 0.2); this.vy = r(-0.3, -.05);
+        this.radius = r(.6, 2); this.a = r(.2, .65);
+        const t = Math.random();
+        this.col = `${Math.round(168 * (1 - t) + 56 * t)},${Math.round(85 * (1 - t) + 189 * t)},${Math.round(247 * (1 - t) + 248 * t)}`;
+      };
+      Pt.prototype.update = function () {
+        this.x += this.vx; this.y += this.vy; this.a -= .001;
+        if (this.a <= 0 || this.y < -8) this.init();
+      };
+      for (let i = 0; i < 180; i++)pts.push(new Pt());
+      function draw() {
+        ctx.clearRect(0, 0, W, H);
+        for (let i = 0; i < pts.length; i++) {
+          for (let j = i + 1; j < pts.length; j++) {
+            const dx = pts[i].x - pts[j].x, dy = pts[i].y - pts[j].y, d = Math.sqrt(dx * dx + dy * dy);
+            if (d < 110) { ctx.beginPath(); ctx.strokeStyle = `rgba(168,85,247,${.07 * (1 - d / 110)})`; ctx.lineWidth = .5; ctx.moveTo(pts[i].x, pts[i].y); ctx.lineTo(pts[j].x, pts[j].y); ctx.stroke(); }
+          }
+        }
+        pts.forEach(p => { p.update(); ctx.beginPath(); ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2); ctx.fillStyle = `rgba(${p.col},${p.a})`; ctx.fill(); });
+        requestAnimationFrame(draw);
+      }
+      draw();
+    })();
+
+    /* SCROLL REVEAL */
+    const obs = new IntersectionObserver(es => { es.forEach(e => { if (e.isIntersecting) e.target.classList.add('on'); }); }, { threshold: .1 });
+    document.querySelectorAll('.rv').forEach(el => obs.observe(el));
+
+    /* NAV HIGHLIGHT */
+    const secs = document.querySelectorAll('section[id]'), navAs = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let cur = ''; secs.forEach(s => { if (window.scrollY >= s.offsetTop - 130) cur = s.id; });
+      navAs.forEach(a => { a.style.color = a.getAttribute('href') === `#${cur}` ? 'var(--p1)' : ''; });
+    });
+  </script>
+  </body>
+
+</html>
