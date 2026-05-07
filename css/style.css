@@ -1433,6 +1433,7 @@
       margin-bottom: 0;
       opacity: 0;
       animation: fup .9s .35s forwards;
+      color: var(--violet);
     }
     .hero-second-title {
       font-size: 60px;
