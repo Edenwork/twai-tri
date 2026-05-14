@@ -1,0 +1,12 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" rx="28" fill="#0E1724"/>
+  <rect x="56" y="60" width="688" height="480" rx="24" fill="#121D2D" stroke="rgba(255,255,255,0.08)"/>
+  <path d="M120 448L244 338L366 374L488 246L618 170" stroke="#39D5FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="120" cy="448" r="12" fill="#39D5FF"/>
+  <circle cx="244" cy="338" r="12" fill="#39D5FF"/>
+  <circle cx="366" cy="374" r="12" fill="#39D5FF"/>
+  <circle cx="488" cy="246" r="12" fill="#6EA8FF"/>
+  <circle cx="618" cy="170" r="12" fill="#F0D48A"/>
+  <text x="120" y="128" fill="#E8F8FF" font-size="34" font-family="Arial, sans-serif">Market Conversion</text>
+  <text x="120" y="170" fill="#7A8CA6" font-size="22" font-family="Arial, sans-serif">Placeholder visual for GTM stage content</text>
+</svg>
